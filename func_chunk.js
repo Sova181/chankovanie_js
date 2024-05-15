@@ -10,5 +10,4 @@ function chunk(array, chunkSize) {
     return result;
   }
   
-  console.log(chunk(['a', 'b', 'c', 'd'], 2));
-  // [['a', 'b'], ['c', 'd']]
+module.exports = chunk
